@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(wave.svg);
+  background-size: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+form {
+  width: 28%;
+  height: 340px;
+  padding: 8px 9px 25px 20px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+input {
+  padding: 3% 3%;
+  margin-top: 2%;
+  border-radius: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  background-color: rgba(153, 153, 153, 0.2);
+}
+form > div {
+  display: block;
+}
+span > label {
+  font-size: small;
+}
+a {
+  color: rgba(128, 128, 128, 0.4);
+}
+button {
+  background-color: rgb(74, 108, 246);
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  box-shadow: 0px 3px 2px rgb(28, 42, 100);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+button:active {
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.te {
+  margin-top: 17px;
+  margin-left: 5px;
+  padding-bottom: 0px;
+}
+.form-input {
+  width: 90%;
+}
+a {
+  margin-left: 29%;
+}
